@@ -417,7 +417,7 @@ export default function Portfolio() {
             transition={{ duration: 0.8, delay: 1 }}
             className="flex flex-wrap justify-center gap-6 mb-16"
           >
-            <a href={resumePdf} download="PRASHANT_YADAV_CSIT.pdf">
+            <a href={resumePdf} download="PRASHANT_YADAV_CV.pdf">
                 <motion.button
                   whileHover={{ scale: 1.05, boxShadow: "0 20px 40px rgba(16, 185, 129, 0.3)" }}
                   whileTap={{ scale: 0.95 }}
@@ -429,7 +429,6 @@ export default function Portfolio() {
             </a>
           </motion.div>
 
-          {/* --- ICONOS SOCIALES ACTUALIZADOS --- */}
           <motion.div 
             initial={{ opacity: 0, scale: 0 }}
             animate={{ opacity: 1, scale: 1 }}
@@ -464,19 +463,19 @@ export default function Portfolio() {
           <motion.h2 
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.5 }}
+            viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.8 }}
             className="text-5xl md:text-6xl font-bold text-center mb-20 bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent"
           >
             About Me
           </motion.h2>
           
-          <div className="grid lg:grid-cols-5 gap-16 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-5 gap-16 items-center">
             <motion.div 
               className="lg:col-span-3"
               initial={{ opacity: 0, x: -100 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, amount: 0.5 }}
+              viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 1 }}
             >
               <div className="bg-slate-800/50 backdrop-blur-xl rounded-3xl p-10 border border-emerald-500/20 shadow-2xl">
@@ -505,10 +504,10 @@ export default function Portfolio() {
                   <div className="bg-gradient-to-r from-emerald-500/10 to-cyan-500/10 rounded-2xl p-6 border border-emerald-500/20">
                     <div className="font-semibold text-white text-lg">Bachelor of Technology in CSE & IT</div>
                     <div className="text-gray-300">Meerut Institute of Engineering and Technology</div>
-                    <div className="text-gray-400 text-sm mt-1">2022 - 2026 · CGPA: 8.5/10</div>
+                    <div className="text-gray-400 text-sm mt-1">2022 - 2026 </div>
                     <div className="mt-3 flex items-center space-x-2">
                       <Trophy size={16} className="text-amber-400" />
-                      <span className="text-sm text-gray-300">Dean's List · Top 10% in class</span>
+                      <span className="text-sm text-gray-300"></span>
                     </div>
                   </div>
                 </div>
@@ -519,7 +518,7 @@ export default function Portfolio() {
               className="lg:col-span-2 space-y-8"
               initial={{ opacity: 0, x: 100 }}
               whileInView={{ opacity: 1, x: 0 }}
-              viewport={{ once: true, amount: 0.5 }}
+              viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 1 }}
             >
                 <div className="grid grid-cols-2 gap-4">
@@ -616,7 +615,7 @@ export default function Portfolio() {
           <motion.h2 
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.5 }}
+            viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.8 }}
             className="text-5xl md:text-6xl font-bold text-center mb-8 bg-gradient-to-r from-cyan-400 to-emerald-400 bg-clip-text text-transparent"
           >
@@ -626,7 +625,7 @@ export default function Portfolio() {
           <motion.p
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.5 }}
+            viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.8, delay: 0.2 }}
             className="text-center text-gray-400 text-lg mb-16 max-w-3xl mx-auto"
           >
@@ -638,7 +637,7 @@ export default function Portfolio() {
             <motion.div 
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.5 }}
+              viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.8 }}
             >
               <h3 className="text-3xl font-semibold mb-8 text-center">Get In Touch</h3>
@@ -675,7 +674,7 @@ export default function Portfolio() {
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.5 }}
+            viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.8 }}
             className="text-center mt-20 pt-12 border-t border-white/10"
           >
